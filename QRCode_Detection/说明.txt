@@ -1,0 +1,26 @@
+需要安装 ：
+opencv-python
+python-pptx
+python-pptx-interface
+pdf2image  （安装完，还需要将 poppler-0.68.0_x86.7z 文件解压，将解压后的bin目录添加进电脑系统环境变量）
+PyPDF2
+comtypes
+pyzbar
+tqdm
+
+pip  install 库名  安装就可以
+
+
+parser.add_argument('--num_workers', type=int, default=6,
+                        help='thread for changing the pdf pages into pdf')  # 设置pdf转图片页面的线程数
+parser.add_argument('--pages_convert_image_output', type=str, default='./output',
+                        help='pages convert image output')  # 图片输出文件夹
+parser.add_argument('--PPTAndPDF_directory', type=str, default='D:\\uyu',
+                        help='sources of ppt and pdf with qrcode')  # ppt和pdf源文件
+
+上面这几行是源代码
+修改时，只修改两处
+第一处：default=6  修改数字  这个代表的意思是电脑的线程数，可按实际电脑的线程来
+第二处：default='D:\\uyu'  修改文件夹路径 这个里面存放了pdf和pptx源文件，只需要改这些源文件所在的
+文件夹绝对路径就可以，最好是英文路径。删除二维码后的ppt和pdf也放在该文件夹下。
+ 
