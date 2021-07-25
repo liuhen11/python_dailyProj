@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget</class>
+ <widget class="QWidget" name="widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1106</width>
+    <height>883</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>可视化分析</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>image/汽车.png</normaloff>image/汽车.png</iconset>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>总体分析</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>大众</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>奔驰</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>宝马</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>奥迪</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>日产</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>丰田</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>本田</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>马自达</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>哈弗</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>东风</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>福特</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>别克</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>现代</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雪佛兰</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>吉利</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>斯巴鲁</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷克萨斯</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_viewConfirm">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>20</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>结果保存</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>110</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>浏览</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>1081</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>各品牌二手车可视化分析</string>
+   </property>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>1081</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout" rowstretch="0"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

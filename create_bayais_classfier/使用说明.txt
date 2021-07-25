@@ -1,0 +1,11 @@
+打开create_bayais_classfier.py 程序运行该程序  需要提前安装好 pandas 库
+调用calculate_p_in_stick_and_give(gender,motion,antitude,fanical,recruit,prepare_exam)函数进行传参计算预测概率
+参数关键词为：
+性别方面 男生或者女生
+是否焦虑 焦虑或者不焦虑
+态度方面 积极或者消极或者二者之间
+家庭收入 有损失或者没损失
+招生方面 扩大招生或者没扩大招生
+备考方面 备考更加困难或者备考没有更加困难
+
+一定要按上述顺序传入相关参数

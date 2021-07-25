@@ -1,0 +1,6 @@
+环境  Pycharm ide  python 3.7
+第三方库 matplitlib  如果运行程序报错的话，需要安装 安装方式是 pip install matplotlib
+
+yonghu.txt 文件 保存了管理员的账号和密码信息
+huiyuaninfo.txt 保存了会员的信息
+person_exercise.py 定义创建了会员的属性类
